@@ -1,0 +1,213 @@
+@media (max-width: 480px) {
+    .logo{
+
+        font-size: 1.2em;
+        
+    }
+    .buttons{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+        height: 6.5em;
+        gap: 0.2em;
+    }
+    .buttons button{
+        width: 85px;
+    }
+    main {
+        height: 20em;    
+    }
+    
+    main h1 {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        top: 100%;
+        font-family: "Sportesia-Regular", sans-serif;
+        font-size: 3em;
+        color: rgb(0, 0, 0);
+        animation: none;
+    
+    }
+    
+    .car img{
+        width: 18em;
+    }
+    footer{
+        height: 13em;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .baseboard_text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1em;
+        height: 80%;
+    }
+    .baseboard_text h1{
+        font-size: 1.3em;
+    }
+    .baseboard_text p{
+        
+        padding: 10px;
+        font-size: 0.8em;
+    }
+    .baseboard_buttons{
+        align-items: start;
+        gap: 1em;
+        height: 20%;
+    }
+}
+@media (min-width: 481px) and (max-width: 580px)  {
+    .logo{
+        font-size: 1.5em;
+    }
+    .buttons{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 6.5em;
+        gap: 0.3em;
+    }
+    
+    main {
+        height: 20em;    
+    }
+    
+    main h1 {
+        top: 100%;
+        font-size: 4em;
+        animation: none;
+    }
+    
+    .car img{
+        width: 25em;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .baseboard_text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1em;
+        height: 80%;
+    }
+    .baseboard_text h1{
+        font-size: 1.5em;
+    }
+    .baseboard_text p{
+        
+        padding: 10px;
+        font-size: 0.9em;
+    }
+    .baseboard_buttons{
+        align-items: start;
+        gap: 1em;
+        height: 20%;
+    }
+    
+}
+@media (min-width: 581px) and (max-width: 767px)  {
+    .logo{
+        font-size: 1.7em;
+    }
+    .buttons{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 6.5em;
+        gap: 0.3em;
+    }
+    
+    main {
+        height: 25em;    
+    }
+    
+    main h1 {
+        font-size: 6em;
+        animation: none;
+    }
+    
+    .car img{
+        width: 30em;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+    }
+    .baseboard_text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1em;
+        height: 80%;
+    }
+    .baseboard_text h1{
+        font-size: 1.8em;
+    }
+    .baseboard_text p{
+        
+        padding: 10px;
+        font-size: 1em;
+    }
+    .baseboard_buttons{
+        height: 20%;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px)  {
+    .logo{
+        font-size: 1.7em;
+    }
+    main h1 {
+        font-size: 8em;
+        animation: none;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+    }
+    .baseboard_text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1em;
+        height: 80%;
+    }
+    .baseboard_text h1{
+        font-size: 2em;
+    }
+    .baseboard_text p{
+        padding: 10px;
+        font-size: 1em;
+    }
+    
+}
+@media (min-width: 1025px) and (max-width: 1450px)  {
+    main h1 {
+        animation: none;
+    }
+   
+    .baseboard_text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       
+    }
+    .baseboard_text p{
+        font-size: 1.1em;
+    }
+    
+}
+/* Desktops grandes */
+@media (min-width: 1441px) {
+  
+}

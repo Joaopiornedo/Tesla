@@ -1,0 +1,151 @@
+@font-face {
+    font-family: "Sportesia-Regular";
+    src: url(../fonts/Sportesia-Regular.woff);
+    src: url(../fonts/Sportesia-Regular.woff2);
+}
+body {
+    margin: 1%;
+    padding: 1%;
+    background-image: url(../img/backgroud.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Header */
+header {
+    display: grid;
+    grid-template-columns: 1fr 3fr ;
+    gap: 0.5em;
+    align-items: center;
+    height: 7em;
+    
+    
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    align-content: center;
+    padding: 0px 20px;
+    height: 4.5em;
+    gap: 1em;
+
+    
+    
+    
+}
+.buttons button {
+    width: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: black;
+    font-size: 1em;
+    color: rgb(255, 255, 255);
+    border: solid 0.1em;
+    border-radius: 2em;
+    border-color: rgb(255, 255, 255);
+    box-shadow: 0px 1px 10px rgb(255, 255, 255);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+
+}
+
+button:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 5px 20px rgb(255, 255, 255);
+}
+
+/* Text Tesla */
+.logo {
+
+    text-align: center;
+    font-family: "Sportesia-Regular", sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 2em;
+    text-shadow: 0px 2px 30px rgb(255, 255, 255);
+    
+}
+
+/* Main */
+main {
+    display: grid;
+    grid-template-rows: 1fr 1fr ;
+    height: 40em;
+    
+}
+
+main h1 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 90%;
+    font-family: "Sportesia-Regular", sans-serif;
+    font-size: 10em;
+    color: rgb(0, 0, 0);
+    text-shadow: 0px 0px 5px white;
+    
+
+}
+.car {
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+
+
+
+/* Baseboard */
+
+footer{
+    display: grid;
+    grid-template-columns: 2.5fr 1fr;
+    align-items: center;
+    height: 11em;
+    
+    
+}
+.baseboard_text{
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    height: 100%;
+}
+
+.baseboard_text h1{
+    font-size: 2.5em;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.baseboard_text p{
+    text-align: justify;
+    font-size: 1.5em;
+    color: rgb(0, 0, 0);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.baseboard_buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    height: 80%;
+    width: 100%;
+}
+
+.baseboard_buttons button{
+    min-width: 100px;
+    padding: 5px;
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: transparent;
+    font-size: 1em;
+    color: rgb(255, 255, 255);
+    border: solid 0.1em;
+    border-radius: 2em;
+    border-color: rgb(255, 255, 255);
+    box-shadow: 0px 1px 10px rgb(255, 255, 255);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
